@@ -1,0 +1,14 @@
+{{showChart | json}}
+<div style="height: 300px; " *ngIf="showChart">
+    {{data | json}}
+    <ngx-charts-bar-vertical
+      [results]="data"
+      [xAxis]="true"
+      [yAxis]="true"
+      [showXAxisLabel]="true"
+      [showYAxisLabel]="true"
+      xAxisLabel="Labels"
+      yAxisLabel="Values">
+    </ngx-charts-bar-vertical>
+  </div>
+  
