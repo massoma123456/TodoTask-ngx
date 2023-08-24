@@ -16,6 +16,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { NgxChartsModule } from "@swimlane/ngx-charts";
 import { NgxBarChartComponent } from './ngx-bar-chart/ngx-bar-chart.component';
+import { TestingCompComponent } from './todo/testing-comp/testing-comp.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NgxBarChartComponent } from './ngx-bar-chart/ngx-bar-chart.component';
     NavbarComponent,
     TodoComponent,
     NgxBarChartComponent,
+    TestingCompComponent,
 
   ],
   imports: [
